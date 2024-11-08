@@ -1,13 +1,41 @@
 @import './background.css';
-@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: "Gentium Book Plus", serif;
+    box-sizing: border-box;
 }
-
-h1 {
-    font-family: "Lugrasimo", cursive;
+header{
+    background-color: rgb(101, 39, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 4vh;
+    width: 100vw;
+}
+body{
+    overflow: hidden;
+}
+#app{
+    height: 95vh;
+    width: 60vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: red;
+    z-index: 2;
+}
+.map{
+    height: 100%;
+    /* height: 98vh; */
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    transition: 250ms;
+}
+.zoom_map{
+    /* top: 500px;
+    left: 0; */
+    transform: scale(1.8);
 }
