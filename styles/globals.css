@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgb(101, 39, 22);
+    background-color: #652716;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,8 @@ body{
     position: relative;
     overflow: hidden;
     z-index: 2;
+    border: 10px solid #0c0c0c;
+    border-radius: 10px;
 }
 .map{
     width: 1200px;

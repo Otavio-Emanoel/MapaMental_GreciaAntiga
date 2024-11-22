@@ -1,0 +1,10 @@
+#borda {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid #0c0c0c;
+    background-color: #331911;
+    z-index: -1;
+}
