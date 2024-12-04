@@ -1,0 +1,14 @@
+#menu-open {
+    position: fixed;
+    border-radius: 50%;
+    left: 10px;
+    top: 5px;
+    font-size: 30px;
+    color: #ddd;
+    transition: color 100ms;
+    cursor: pointer;
+}
+#menu-open:hover {
+    color: #fff;
+    transition: color 100ms;
+}
