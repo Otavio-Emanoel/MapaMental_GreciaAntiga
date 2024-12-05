@@ -31,15 +31,16 @@
     transition: 1s;
 }
 
-#menu_nav a {
+#menu_nav p {
     color: #652716;
     text-decoration: none;
     font-size: 40px;
     width: 100%;
     border-radius: 5px;
     padding-left: 10px;
+    cursor: pointer;
 }
 
-#menu_nav a:hover {
+#menu_nav p:hover {
     background-color: #cccccc;
 }

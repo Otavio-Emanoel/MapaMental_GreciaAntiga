@@ -36,3 +36,59 @@ document.querySelector("#menu-open").addEventListener("click", () => {
         document.querySelector("#menu_nav").style.opacity = "0"
     }
 }) // EU NAO AGUENTO MAIS 😭😭
+
+// Abrir e fechar o modal das cidades
+
+document.querySelector("#cidades").addEventListener("click", ()=>{
+    document.querySelector("#modal_cidades").style.display = "flex"
+})
+document.querySelector("#modal_cidades_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_cidades").style.display = "none"
+})
+
+// A mesma coisa so que pros outros modais (ou modals?)
+
+document.querySelector("#geografia").addEventListener("click", ()=>{
+    document.querySelector("#modal_geografia").style.display = "flex"
+})
+document.querySelector("#modal_geografia_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_geografia").style.display = "none"
+})
+
+// Foi mais um 
+
+document.querySelector("#figuras").addEventListener("click", ()=>{
+    document.querySelector("#modal_figuras").style.display = "flex"
+})
+document.querySelector("#modal_figuras_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_figuras").style.display = "none"
+})
+
+// So falta mais 3
+
+document.querySelector("#cultura").addEventListener("click", ()=>{
+    document.querySelector("#modal_cultura").style.display = "flex"
+})
+document.querySelector("#modal_cultura_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_cultura").style.display = "none"
+})
+
+// Aveee mArIa DoIdO
+
+document.querySelector("#guerras").addEventListener("click", ()=>{
+    document.querySelector("#modal_guerras").style.display = "flex"
+})
+document.querySelector("#modal_guerras_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_guerras").style.display = "none"
+})
+
+// O ultimo
+
+document.querySelector("#deuses").addEventListener("click", ()=>{
+    document.querySelector("#modal_deuses").style.display = "flex"
+})
+document.querySelector("#modal_deuses_close").addEventListener("click", ()=>{
+    document.querySelector("#modal_deuses").style.display = "none"
+})
+
+// ALELUUUUIA ACABOU ISSOOOO
