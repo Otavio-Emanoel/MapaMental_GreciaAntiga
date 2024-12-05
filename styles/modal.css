@@ -1,0 +1,43 @@
+/* CIDADES */
+
+#modal_cidades {
+    width: 1200px;
+    height: 900px;
+    background-color: #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+.fa-times-circle-o{
+    font-size: 40px;
+    cursor: pointer;
+}
+/* GEOGRAFIA */
+
+
+/* FIGURAS */
+
+
+/* CULTURA */
+
+
+/* GUERRAS */
+
+
+/* DEUSES */
+
+

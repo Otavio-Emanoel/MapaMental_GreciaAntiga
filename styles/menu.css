@@ -8,7 +8,38 @@
     transition: color 100ms;
     cursor: pointer;
 }
+
 #menu-open:hover {
     color: #fff;
     transition: color 100ms;
+}
+
+#menu_nav {
+    width: 200px;
+    height: 310px;
+    position: fixed;
+    left: 15px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 10px;
+    background-color: #dddddddc;
+    padding-top: 10px;
+    display: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+#menu_nav a {
+    color: #652716;
+    text-decoration: none;
+    font-size: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#menu_nav a:hover {
+    background-color: #cccccc;
 }

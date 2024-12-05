@@ -1,5 +1,6 @@
 @import './background.css';
 @import './menu.css';
+@import './modal.css';
 
 *{
     margin: 0;
