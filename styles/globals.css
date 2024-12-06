@@ -29,13 +29,16 @@ body{
     border: 10px solid #0c0c0c;
     border-radius: 10px;
 }
+.oculto{
+    opacity: 0;
+}
 .map{
     width: 1200px;
     /* height: 98vh; */
     position: absolute;
     /* top: 0;
     left: 0; */
-    transition: transform 250ms;
+    transition: transform 250ms, opacity 250ms;
     cursor: zoom-in;
     -webkit-user-drag: none;
     user-select: none;
@@ -43,5 +46,6 @@ body{
 .zoom_map{
     cursor: zoom-out;
     transform-origin: 100% 0%;
-    transform: scale(2.6);
+    transform: scale(2.2);
+    opacity: 1 !important;
 }
